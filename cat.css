@@ -1,0 +1,183 @@
+ body {
+     background-color: #f4f4f4f4;
+ }
+ 
+ 
+ #cat-title {
+    background-color: lightblue;
+    color: grey;
+    padding: 40px;
+    text-align: center;
+    font-size: 2.5em;
+    font-style: italic;
+    font-family: "Brush Script MT";
+}
+
+/*Siamese cat start */
+.Siamese h1 {
+    background-color: #f4f4f4f4;
+    color: purple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: initial;
+    font-size: 1.5em;
+}
+
+.Siamese p {
+    font-style: italic;
+    font-size: 1.5em;
+    background-color: #f4f4f4f4;
+    font-family: "Brush Script MT";
+}
+/*Siamese cat end*/
+
+/* Persain cat start */
+.Persain h1 {
+    background-color: #f4f4f4f4;
+    color: silver;
+    font-family: "Lucida Console";
+    font-style: initial;
+    font-size: 1.5em;
+}
+
+.Persain p {
+    font-style: italic;
+    font-size: 1.5em;
+    background-color: #f4f4f4;
+    font-family: "Brush Script MT"
+}
+/* Persain cat end */
+
+/* Main Coon start */
+.Main-Coon h1 {
+    background-color: #f4f4f4f4;
+    color: burlywood;
+    font-family: "Brush Script MT";
+    font-style: initial;
+    font-size: 2.0em;
+}
+
+.Main-Coon p {
+    font-style: italic;
+    font-size: 1.5em;
+    background-color: #f4f4f4;
+    font-family: "Brush Script MT";
+}
+/*Main Coon end */
+
+/*Ragdoll cat start*/
+.Ragdoll h1 {
+    background-color: #f4f4f4f4;
+    color: rgb(184, 144, 144);
+    font-family: "Helvetica";
+    font-style: initial;
+    font-size: 2.0em;
+}
+
+.Ragdoll p {
+    font-style: italic;
+    font-size: 1.5em;
+    background-color: #f4f4f4f4;
+    font-family: "Brush Script MT"
+}
+/*Ragdoll cat end*/
+
+/* Sphynx cat start */
+ .Sphynx h1 {
+    background-color: #f4f4f4f4;
+    color: rgb(184, 144, 144);
+    font-family: 'Hanalei', cursive;
+    font-style: initial;
+    font-size: 2.0em;
+ }
+
+ .Sphynx p {
+    font-style: italic;
+    font-size: 1.5em;
+    background-color: #f4f4f4f4;
+    font-family: "Brush Script MT"
+ }
+/* Sphynx cat end */
+
+/*start navbar*/
+header {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    
+    height: 19px;
+    padding: 25px 10px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    opacity: 0.7;
+    
+    z-index: 5;
+  }
+
+  header a {
+    margin-right: 2rem;
+    color: grey;
+    
+    text-decoration: none;
+    z-index: 5;
+  }
+  
+  header a hover {
+    margin-right: 2rem;
+    color: white;
+  
+    text-decoration: underline;
+    z-index: 5;
+  }
+  
+  header h3 {
+    margin-right: 2rem;
+    color: grey;
+    
+    text-decoration: none;
+  }
+/*end navbar*/
+
+/* start searchbar */
+
+ form {
+  background-color: blue;
+  width: 300px;
+  height: 44px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+input {
+    all:unset;
+    font: 16px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+::placeholder {
+    color: #fff;
+    opacity: 0.7;
+}
+
+button {
+   all: unset;
+   cursor: pointer;
+   width: 44px;
+   height: 44px;
+}
+
+svg {
+  color: #fff;
+  fill:currentColor;
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+}
+/* end searchbar */
